@@ -1,6 +1,6 @@
 const button = document.getElementById('btn');
 const lista = [];
-let resposta = 
+let resposta; 
 
 button.addEventListener("click", (event) => {
     event.preventDefault();
