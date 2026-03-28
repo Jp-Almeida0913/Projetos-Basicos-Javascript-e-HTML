@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+</head>
+<body>
+    <h1>Gerador de senhas | </h1>
+    <form>
+        <label>Tamanho da senha: </label>
+        <input type="number" id="tamanho" placeholder="Tamanho da senha">
+
+        <br><br><label>Letra Maíuscula</label>
+        <input type="checkbox" id="maiuscula">
+
+        <br><label>Letra Minúscula</label>
+        <input type="checkbox" id="minuscula">
+
+        <br><label>Número</label>
+        <input type="checkbox" id="numero">
+
+        <br><label>Símbolo</label>
+        <input type="checkbox" id="simbolo">
+
+        <br><br>
+        <button type="submit" id="btn">Gerar senha</button>
+    </form>
+    <br><br>
+    <label>SENHA GERADA:</label><h2 id="senha"></h2>
+    <button id="copiarSenha">Copiar Senha</button>
+</body>
+<script src="script.js"></script>
+</html>

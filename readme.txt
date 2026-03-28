@@ -1,1 +1,1 @@
-Buscando praticar o básico, decidi desenvolver cinco projetos simples utilizando HTML e JavaScript. Mais detalhes sobre cada projeto podem ser encontrados no README de cada pasta.
+Buscando praticar o básico, decidi desenvolver projetos simples utilizando HTML e JavaScript. Mais detalhes sobre cada projeto podem ser encontrados no README de cada pasta.
