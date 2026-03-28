@@ -47,8 +47,13 @@ btn.addEventListener("click", (submit) => {
         characters.push(...symbolsChar);
     }
 
+    if (Number(passwordSize.value) < 4){
+        alert("Defina um tamanho válido de senha!");
+        return;
+    }
+
     if (characters.length === 0) {
-    alert("Selecione pelo menos um tipo de caractere");
+    alert("Selecione pelo menos um tipo de caractere!");
     return;
     }
 
